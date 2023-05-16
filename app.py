@@ -8,6 +8,7 @@ from flask import (
 )
 import certifi
 from pymongo import MongoClient
+from dotenv import load_dotenv
 
 app = Flask(__name__)
 
